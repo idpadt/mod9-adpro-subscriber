@@ -8,3 +8,8 @@ is the second **guest**, and what is **localhost:5672** is for?
 - `guest` pertama merupakan username untuk autentikasi.
 - `guest` kedua merupakan password untuk autentikasi.
 - `localhost:5672` merupakan lokasi url broker, dimana `localhost` merupakan hostname atau IP address dan `5672` merupakan port pada hostname atau IP tersebut.
+
+### Simulating Slow Subscriber
+![slow_sub](image/Simulating%20slow.png)
+
+Pada queue, terdapat 11 message yang belum dikirim karena subscriber yang sedang (disimulasikan) pelan.
